@@ -1,0 +1,59 @@
+:root {
+    --primary-color: #d4c6ff;
+    --secondary-color: #ffe7e7;
+}
+
+body {
+    background: var(--secondary-color);
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    color: darkslategrey;
+    margin: 5% 0%;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: darkmagenta;
+    margin: 5px;
+}
+
+a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.img-wrapper {
+    width: 500px;
+    height: 300px;
+    background-color: aliceblue;
+    margin: 5% auto;
+    overflow: hidden;
+    border-radius: 4px;
+    padding: 1%;
+}
+
+.container {
+    width: 50%;
+    padding: 2% 5%;
+    margin: 10% auto;
+    background: var(--primary-color);
+    border-radius: 4px;
+    box-shadow: 2px 2px 1px rgb(143, 123, 81);
+
+}
